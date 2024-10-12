@@ -22,6 +22,7 @@ cup_prefixes = [
 # Función para identificar el tipo de tarjeta
 def identificar_tipo_tarjeta(numero_tarjeta):
     # Elimina los espacios para analizar el número
+    print(f"Numero tarjeta: {numero_tarjeta}")
     numero_tarjeta = numero_tarjeta.replace(" ", "")
     
     # Extraer los primeros cuatro dígitos
@@ -81,5 +82,6 @@ app.add_handler(MessageHandler(filters.TEXT, handle_message))
 # Iniciar el bot
 if __name__ == '__main__':
     os.system("clear")
+    print("Tarjetas Telegram Bot iniciado\n")
     # logger.info("Bot running...")
     app.run_polling()
