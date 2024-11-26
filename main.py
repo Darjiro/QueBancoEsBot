@@ -16,7 +16,7 @@ mlc_prefixes = [
 # Iniciales para CUP
 cup_prefixes = [
     '9200', '9204', '9205', '9206', '9224', '9212', 
-    '9213', '9238', '9237', '9227', '9234'
+    '9213', '9238', '9237', '9227', '9234', '9202'
 ]
 
 # Función para identificar el tipo de tarjeta
